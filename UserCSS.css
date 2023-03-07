@@ -117,12 +117,30 @@
         display: none;
     }
     
-    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) {
-        background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png);
+    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) {
+        background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
-    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) > svg[aria-label="File"] {
+    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) > svg[aria-label="File"] {
+        display: none;
+    }
+    
+    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) {
+        background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/powershell/powershell.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) > svg[aria-label="File"] {
+        display: none;
+    }
+    
+    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) {
+        background-image: url(https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) > svg[aria-label="File"] {
         display: none;
     }
 }
