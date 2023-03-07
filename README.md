@@ -34,6 +34,7 @@ You can change icons to your own in Stylus
 
 # TODO
 * Write a script that will build UserCSS.css from template and table of data
+* Continue migration from "github.com/topics" icons to files in [icons folder](icons)
 
 ## Common
 * `*.hash`, `*.sfv`, `*.md5`, `*.sha1`, `*.sha256`, `*.sha512`, `*.sha3-256`, `*.sha3-512`
