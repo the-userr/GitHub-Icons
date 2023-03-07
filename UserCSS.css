@@ -40,12 +40,21 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitattributes"])
 
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
     background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/GitHub.svg");
-	/* https://commons.wikimedia.org/wiki/File:Octicons-mark-github.svg */
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
 }
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) > svg {
+    display: none;
+}
+
+div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".editorconfig"]) {
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/EditorConfig.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".editorconfig"]) > svg {
     display: none;
 }
 
@@ -130,12 +139,22 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) > svg {
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) {
-    background-image: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png");
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Python.svg");
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) > svg {
+    display: none;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"]) {
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Python.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"]) > svg {
     display: none;
 }
 
@@ -190,7 +209,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) > svg {
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".svg"]) {
-    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/S.svg");
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/SVG.svg");
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;

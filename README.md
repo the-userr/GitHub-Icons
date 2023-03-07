@@ -19,12 +19,15 @@ You can change icons to your own in Stylus
 * `*.cpp`
 * `*.cs`
 * `*.go`
-* `*.py`
 * `*.json`
 * `*.xml`
 * `*.yaml`
 * `*.ps`
 * `*.sh`
+* `.editorconfig`
+## Python
+* `*.py`
+* `requirements.txt`
 
 # Sources
 * [Wikimedia Commons](https://commons.wikimedia.org/)
@@ -114,7 +117,8 @@ You can change icons to your own in Stylus
 * `.nycrc`
 * `.csslintrc`
 
-* `.editorconfig`?
 * `bower.json`?
 * `*.dll`
 * `*.h`
+* `*.rst`
+* `*.cfg`
