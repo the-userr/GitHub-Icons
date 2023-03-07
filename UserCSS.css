@@ -20,7 +20,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) > svg[aria
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) {
-    background-image: url("https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png");
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Git.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) > s
 }
 
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/16px-Octicons-mark-github.svg.png");
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/GitHub.png");
 	/* https://commons.wikimedia.org/wiki/File:Octicons-mark-github.svg */
     background-size: contain;
     background-repeat: no-repeat;
