@@ -38,6 +38,16 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitattributes"])
     display: none;
 }
 
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmodules"]) {
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Git.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmodules"]) > svg {
+    display: none;
+}
+
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
     background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/GitHub.svg");
     background-size: contain;

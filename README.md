@@ -120,5 +120,10 @@ You can change icons to your own in Stylus
 * `bower.json`?
 * `*.dll`
 * `*.h`
+
 * `*.rst`
 * `*.cfg`
+
+* `*.zip`
+* `*.tar.gz`
+* `*.gzip`
