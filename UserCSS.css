@@ -58,13 +58,13 @@ div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) >
     display: none;
 }
 
-div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".editorconfig"]) {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".editorconfig"]) {
     background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/EditorConfig.png");
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".editorconfig"]) > svg {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".editorconfig"]) > svg {
     display: none;
 }
 
