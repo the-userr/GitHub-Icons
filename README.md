@@ -30,6 +30,7 @@ You can change icons to your own in Stylus
 * [Wikimedia Commons](https://commons.wikimedia.org/)
 
 # TODO
+* Write a script that will build UserCSS.css from template and table of data
 
 ## Common
 * `*.hash`, `*.sfv`, `*.md5`, `*.sha1`, `*.sha256`, `*.sha512`, `*.sha3-256`, `*.sha3-512`
@@ -78,3 +79,42 @@ You can change icons to your own in Stylus
 * `browserconfig.xml`?
 * `www` folder?
 ## TypeScript
+## Other
+* `*.jar`
+* `*.bat`, `*.cmd`
+* `*.exe`?
+
+* `makefile`
+* `.htaccess` (Apache)
+* `*.xsd`?
+
+* `composer.json`
+* `composer.local.json`
+* `composer.lock`
+* `*.conf`? (nginx)
+
+* `babel.config.json`?
+* `package.json`?
+* `package-lock.json`?
+* `README`
+* `yarn.lock`?
+
+* `Desktop.ini`??
+* `*.reg`??
+
+* `i18n` folder?
+
+* `docs` folder?
+
+* `.babelrc`
+* `.codeclimate.yml`
+* `.travis.yml`
+* `.mdlrc`
+* `.eslintrc`
+* `.nycrc`
+* `.csslintrc`
+
+* `.editorconfig`?
+* `bower.json`?
+* `*.dll`
+* `*.h`
