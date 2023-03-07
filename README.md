@@ -10,7 +10,6 @@ You can change icons to your own in Stylus
 2. [Install from UserStyles.world](https://userstyles.world/style/8856/github-icons) or from [releases](https://github.com/the-userr/GitHub-Icons/releases)
 
 # Supported filenames
-* `*.md`
 * `*.html`
 * `*.css`
 * `*.js`
@@ -19,12 +18,19 @@ You can change icons to your own in Stylus
 * `*.cpp`
 * `*.cs`
 * `*.go`
+* `*.ps`
+* `*.sh`
 * `*.json`
 * `*.xml`
 * `*.yaml`
-* `*.ps`
-* `*.sh`
+## Common
+* `.github` folder
+* `.gitmodules`
+* `.gitignore`
+* `.gitattributes`
 * `.editorconfig`
+* `*.md`
+* `*.svg`
 ## Python
 * `*.py`
 * `requirements.txt`
@@ -68,7 +74,6 @@ You can change icons to your own in Stylus
 * `*.rdf`
 * `*.rq`
 * `*.sparql`
-* `*.sql`
 ## Python
 * `__init__.py`
 * `__main__.py`
@@ -106,6 +111,8 @@ You can change icons to your own in Stylus
 
 * `Desktop.ini`??
 * `*.reg`??
+
+* `*.sql`
 
 * `i18n` folder?
 
