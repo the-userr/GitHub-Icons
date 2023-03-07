@@ -25,3 +25,55 @@ You can change icons to your own in Stylus
 * `*.yaml`
 * `*.ps`
 * `*.sh`
+
+# Sources
+* [Wikimedia Commons](https://commons.wikimedia.org/)
+
+# TODO
+
+## Common
+* `*.hash`, `*.sfv`, `*.md5`, `*.sha1`, `*.sha256`, `*.sha512`, `*.sha3-256`, `*.sha3-512`
+* `*.gif`?
+* `*.svg`
+* `*.txt`
+* `*.png`?
+* `*.ini`?
+* `README.md`?
+* `BUILD.md`?
+* `LICENSE`, `LICENSE.txt`, `LICENSE.md`, `LICENSE*`
+* `CONTRIBUTING`
+* `HISTORY`
+* `NEWS.txt`
+* `NOTICE`
+* `.gitattributes`?
+* `.github` folder?
+* `bin` folder?
+## NuGet
+* `.nupkg.metadata`
+* `*.nupkg`
+* `*.nuspec`
+* `.signature.p7s`
+## Ruby
+* `Rakefile`
+* `Gemfile`
+* `Gemfile.lock`
+## Semantic Web
+* `*.owl`
+* `*.rdf`
+* `*.rq`
+* `*.sparql`
+* `*.sql`
+## Python
+* `__init__.py`
+* `__main__.py`
+* `__pip-runner__.py`
+## Web
+* `index.html`
+* `index.php`
+* `favicon.ico`?
+* `robots.txt`?
+* `sitemap.xml`?
+* `manifest.json`?
+* `site.webmanifest`?
+* `browserconfig.xml`?
+* `www` folder?
