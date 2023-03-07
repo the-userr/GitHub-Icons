@@ -7,8 +7,6 @@
 @updateURL      https://github.com/the-userr/GitHub-Icons/blob/main/UserCSS.css
 ==/UserStyle== */
 
-/* Icons were found from https://github.com/topics/  */
-
 @-moz-document domain("github.com") {
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) {
     background-image: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png");
@@ -72,7 +70,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) > svg {
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".js"]) {
-    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/JaavaScript.png");
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/JavaScript.png");
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
@@ -142,7 +140,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) > svg {
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) {
-    background-image: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/json/json.png");
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/JSON.svg");
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
