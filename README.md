@@ -1,7 +1,7 @@
 # GitHub Icons
 User styles to add icons on GitHub
 
-![image](https://user-images.githubusercontent.com/61782740/223474923-c2f02664-5b80-486b-93d8-1d7fa07936a9.png)
+![image](preview.png)
 
 You can change icons to your own in Stylus
 
