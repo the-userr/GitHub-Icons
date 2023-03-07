@@ -188,4 +188,14 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) {
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) > svg {
     display: none;
 }
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".svg"]) {
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/SVG.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".svg"]) > svg {
+    display: none;
+}
 }
