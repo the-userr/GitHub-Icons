@@ -10,6 +10,18 @@ You can change icons to your own in Stylus
 2. [Install from UserStyles.world](https://userstyles.world/style/8856/github-icons)
 
 # Supported filenames
+* `*.md`
 * `*.html`
 * `*.css`
 * `*.js`
+* `*.php`
+* `*.c`
+* `*.cpp`
+* `*.cs`
+* `*.go`
+* `*.py`
+* `*.json`
+* `*.xml`
+* `*.yaml`
+* `*.ps`
+* `*.sh`
