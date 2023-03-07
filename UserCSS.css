@@ -16,7 +16,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) > svg {
     display: none;
 }
 
@@ -26,7 +26,17 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) > svg {
+    display: none;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitattributes"]) {
+    background-image: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Git.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitattributes"]) > svg {
     display: none;
 }
 
@@ -37,7 +47,7 @@ div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) > svg {
     display: none;
 }
 
@@ -47,7 +57,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".html"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".html"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".html"]) > svg {
     display: none;
 }
 
@@ -57,7 +67,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) > svg {
     display: none;
 }
 
@@ -67,7 +77,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".js"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".js"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".js"]) > svg {
     display: none;
 }
 
@@ -77,7 +87,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".php"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".php"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".php"]) > svg {
     display: none;
 }
 
@@ -87,7 +97,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".go"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".go"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".go"]) > svg {
     display: none;
 }
 
@@ -97,7 +107,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cs"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cs"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cs"]) > svg {
     display: none;
 }
 
@@ -107,7 +117,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cpp"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cpp"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cpp"]) > svg {
     display: none;
 }
 
@@ -117,7 +127,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) > svg {
     display: none;
 }
 
@@ -127,7 +137,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) > svg {
     display: none;
 }
 
@@ -137,7 +147,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) > svg {
     display: none;
 }
 
@@ -147,7 +157,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".xml"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".xml"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".xml"]) > svg {
     display: none;
 }
 
@@ -157,7 +167,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) > svg {
     display: none;
 }
 
@@ -167,7 +177,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) > svg {
     display: none;
 }
 
@@ -177,7 +187,7 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) {
     background-repeat: no-repeat;
 	background-position: center;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) > svg[aria-label="File"] {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) > svg {
     display: none;
 }
 }
