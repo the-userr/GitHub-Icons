@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           GitHub Icons
 @namespace      github.com/openstyles/stylus
-@version        1.0.2
+@version        1.0.3
 @description    A new userstyle
 @author         pycoinfu and the-userr
 @updateURL      https://github.com/the-userr/GitHub-Icons/blob/main/UserCSS.css
@@ -36,9 +36,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".md"] > a > span:first-child {
+    background-image: var(--markdown);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".md"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) {
@@ -46,9 +57,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitignore"] > a > span:first-child {
+    background-image: var(--git);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitignore"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitattributes"]) {
@@ -56,9 +78,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitattributes"])
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitattributes"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitattributes"] > a > span:first-child {
+    background-image: var(--git);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitattributes"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmodules"]) {
@@ -66,9 +99,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmodules"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmodules"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitmodules"] > a > span:first-child {
+    background-image: var(--git);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitmodules"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
@@ -76,9 +120,10 @@ div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) > svg {
-    display: none;
+    visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".editorconfig"]) {
@@ -86,9 +131,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".editorconfig"]) 
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".editorconfig"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".editorconfig"] > a > span:first-child {
+    background-image: var(--editorconfig);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".editorconfig"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".html"]) {
@@ -96,9 +152,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".html"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".html"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".html"] > a > span:first-child {
+    background-image: var(--html);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".html"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) {
@@ -106,9 +173,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".css"] > a > span:first-child {
+    background-image: var(--css);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".css"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".js"]) {
@@ -116,9 +194,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".js"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".js"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".js"] > a > span:first-child {
+    background-image: var(--javascript);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".js"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".php"]) {
@@ -126,9 +215,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".php"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".php"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".php"] > a > span:first-child {
+    background-image: var(--php);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".php"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".go"]) {
@@ -136,9 +236,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".go"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".go"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".go"] > a > span:first-child {
+    background-image: var(--golang);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".go"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cs"]) {
@@ -146,9 +257,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cs"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cs"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".cs"] > a > span:first-child {
+    background-image: var(--csharp);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".cs"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cpp"]) {
@@ -156,9 +278,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cpp"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cpp"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".cpp"] > a > span:first-child {
+    background-image: var(--cpp);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".cpp"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) {
@@ -166,9 +299,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".c"] > a > span:first-child {
+    background-image: var(--c);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".c"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) {
@@ -176,9 +320,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".py"] > a > span:first-child {
+    background-image: var(--python);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".py"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"]) {
@@ -186,9 +341,10 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"]) > svg {
-    display: none;
+    visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) {
@@ -196,19 +352,42 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) > svg {
-    display: none;
+    visibility: hidden;
 }
+file-tree li[id^="file-tree-item"][data-file-type=".json"] > a > span:first-child {
+    background-image: var(--json);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".json"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".xml"]) {
     background-image: var(--xml);
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".xml"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".xml"] > a > span:first-child {
+    background-image: var(--xml);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".xml"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) {
@@ -216,9 +395,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yaml"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".yaml"] > a > span:first-child {
+    background-image: var(--yaml);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".yaml"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) {
@@ -226,9 +416,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".ps"] > a > span:first-child {
+    background-image: var(--powershell);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".ps"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) {
@@ -236,9 +437,20 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sh"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".sh"] > a > span:first-child {
+    background-image: var(--shell);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".sh"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".svg"]) {
@@ -246,8 +458,19 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".svg"]) {
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
+	background-origin: content-box;
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".svg"]) > svg {
-    display: none;
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".svg"] > a > span:first-child {
+    background-image: var(--svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".svg"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 }
