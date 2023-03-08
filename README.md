@@ -136,3 +136,7 @@ You can change icons to your own in Stylus
 * `*.zip`
 * `*.tar.gz`
 * `*.gzip`
+
+
+* `*.mp3`
+* `*.wav`
