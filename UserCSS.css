@@ -15,16 +15,18 @@
 	--editorconfig: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/EditorConfig.png");
 	--html: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/HTML.svg");
 	--css: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/CSS.svg");
+	--sass: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/SASS.png");
 	--javascript: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/JavaScript.svg");
-	--php: 			url("https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png");
+	--php: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/PHP.svg");
+	--composer: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Composer.svg");
 	--golang: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png");
-	--csharp: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png");
-	--cpp: 			url("https://raw.githubusercontent.com/github/explore/180320cffc25f4ed1bbdfd33d4db3a66eeeeb358/topics/cpp/cpp.png");
-	--c: 			url("https://raw.githubusercontent.com/github/explore/f3e22f0dca2be955676bc70d6214b95b13354ee8/topics/c/c.png");
+	--csharp: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/C#.svg");
+	--cpp: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/C++.svg");
+	--c: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/C.svg");
 	--python: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Python.svg");
 	--json: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/JSON.svg");
-	--xml: 			url("https://raw.githubusercontent.com/github/explore/05a6f4c574a32b6b2f04c2e589f6c82d9df46a5d/topics/xml/xml.png");
-	--yaml: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png");
+	--xml: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/XML.svg");
+	--yaml: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/YAML.svg");
 	--powershell: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/PowerShell.png");
 	--shell: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Shell.svg");
 	--svg: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/SVG.svg");
@@ -43,6 +45,7 @@
 	--hash: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Hash.png");
 	--truetype: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/TrueType.png");
 	--rdf: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/RDF.png");
+	--nodejs: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Node.JS.png");
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) {
     background-image: var(--markdown);
@@ -481,6 +484,94 @@ li[id*=".css-item"][role="treeitem"] > div > div:last-child > div[class$="TreeVi
 }
 li[id*=".css-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
 li[id*=".css-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".scss"]) {
+    background-image: var(--sass);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".scss"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".scss"] > a > span:first-child {
+    background-image: var(--sass);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".scss"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".scss"]) {
+	background-image: var(--sass);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".scss"]) > svg {
+	visibility: hidden;
+}
+li[id*=".scss-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--sass);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*=".scss-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".scss-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sass"]) {
+    background-image: var(--sass);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sass"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".sass"] > a > span:first-child {
+    background-image: var(--sass);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".sass"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sass"]) {
+	background-image: var(--sass);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sass"]) > svg {
+	visibility: hidden;
+}
+li[id*=".sass-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--sass);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*=".sass-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sass-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -965,6 +1056,50 @@ li[id*=".yaml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeV
 }
 li[id*=".yaml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
 li[id*=".yaml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yml"]) {
+    background-image: var(--yaml);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".yml"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".yml"] > a > span:first-child {
+    background-image: var(--yaml);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".yml"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".yml"]) {
+	background-image: var(--yaml);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".yml"]) > svg {
+	visibility: hidden;
+}
+li[id*=".yml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--yaml);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*=".yml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".yml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2329,6 +2464,270 @@ li[id*=".rdf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeVi
 }
 li[id*=".rdf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
 li[id*=".rdf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="composer.json"]) {
+    background-image: var(--composer);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="composer.json"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="composer.json"] > a > span:first-child {
+    background-image: var(--composer);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="composer.json"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="composer.json"]) {
+	background-image: var(--composer);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="composer.json"]) > svg {
+	visibility: hidden;
+}
+li[id*="composer.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--composer);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*="composer.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*="composer.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="composer.local.json"]) {
+    background-image: var(--composer);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="composer.local.json"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="composer.local.json"] > a > span:first-child {
+    background-image: var(--composer);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="composer.local.json"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="composer.local.json"]) {
+	background-image: var(--composer);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="composer.local.json"]) > svg {
+	visibility: hidden;
+}
+li[id*="composer.local.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--composer);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*="composer.local.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*="composer.local.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="composer.lock"]) {
+    background-image: var(--composer);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="composer.lock"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="composer.lock"] > a > span:first-child {
+    background-image: var(--composer);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="composer.lock"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="composer.lock"]) {
+	background-image: var(--composer);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="composer.lock"]) > svg {
+	visibility: hidden;
+}
+li[id*="composer.lock-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--composer);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*="composer.lock-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*="composer.lock-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="package.json"]) {
+    background-image: var(--nodejs);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="package.json"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="package.json"] > a > span:first-child {
+    background-image: var(--nodejs);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="package.json"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="package.json"]) {
+	background-image: var(--nodejs);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="package.json"]) > svg {
+	visibility: hidden;
+}
+li[id*="package.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--nodejs);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*="package.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*="package.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="package-lock.json"]) {
+    background-image: var(--nodejs);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="package-lock.json"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="package-lock.json"] > a > span:first-child {
+    background-image: var(--nodejs);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="package-lock.json"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="package-lock.json"]) {
+	background-image: var(--nodejs);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="package-lock.json"]) > svg {
+	visibility: hidden;
+}
+li[id*="package-lock.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--nodejs);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*="package-lock.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*="package-lock.json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".npmignore"]) {
+    background-image: var(--nodejs);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".npmignore"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".npmignore"] > a > span:first-child {
+    background-image: var(--nodejs);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".npmignore"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".npmignore"]) {
+	background-image: var(--nodejs);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".npmignore"]) > svg {
+	visibility: hidden;
+}
+li[id*=".npmignore-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--nodejs);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*=".npmignore-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".npmignore-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
