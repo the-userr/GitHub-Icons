@@ -1,0 +1,9 @@
+/* ==UserStyle==
+@name           GitHub Icons
+@namespace      github.com/openstyles/stylus
+@version        1.0.3
+@description    A new userstyle
+@author         pycoinfu and the-userr
+@updateURL      https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/UserCSS.css
+==/UserStyle== */
+

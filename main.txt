@@ -1,0 +1,21 @@
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="EXTENSION"]) {
+    background-image: var(--EXTENSION_VAR);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="EXTENSION"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="EXTENSION"] > a > span:first-child {
+    background-image: var(--EXTENSION_VAR);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="EXTENSION"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+
