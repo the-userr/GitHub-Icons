@@ -20,7 +20,7 @@
 	--php: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/PHP.svg");
 	--composer: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Composer.svg");
 	--golang: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png");
-	--csharp: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/C#.svg");
+	--csharp: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/CSharp.svg");
 	--cpp: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/C++.svg");
 	--c: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/C.svg");
 	--python: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Python.svg");
@@ -44,6 +44,6 @@
 	--zip: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/ZIP.png");
 	--hash: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Hash.png");
 	--truetype: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/TrueType.png");
-	--rdf: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/RDF.png");
-	--nodejs: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Node.JS.png");
+	--rdf: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/RDF.svg");
+	--nodejs: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Node.js.png");
 }
