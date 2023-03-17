@@ -8,6 +8,9 @@
 .github;dir;github
 .editorconfig;file;editorconfig
 .html;filemask;html
+.shtml;filemask;html
+.dhtml;filemask;html
+.mhtml;filemask;html
 .css;filemask;css
 .scss;filemask;sass
 .sass;filemask;sass
