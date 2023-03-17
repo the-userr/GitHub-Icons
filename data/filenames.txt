@@ -54,3 +54,9 @@ requirements.txt;file;python
 .ttf;filemask;truetype
 .otf;filemask;truetype
 .rdf;filemask;rdf
+composer.json;file;composer
+composer.local.json;file;composer
+composer.lock;file;composer
+package.json;file;nodejs
+package-lock.json;file;nodejs
+.npmignore;file;nodejs
