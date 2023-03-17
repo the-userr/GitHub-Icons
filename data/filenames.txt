@@ -9,6 +9,8 @@
 .editorconfig;file;editorconfig
 .html;filemask;html
 .css;filemask;css
+.scss;filemask;sass
+.sass;filemask;sass
 .js;filemask;javascript
 .php;filemask;php
 .go;filemask;golang
@@ -20,6 +22,7 @@ requirements.txt;file;python
 .json;filemask;json
 .xml;filemask;xml
 .yaml;filemask;yaml
+.yml;filemask;yaml
 .ps1;filemask;powershell
 .sh;filemask;shell
 .svg;filemask;svg

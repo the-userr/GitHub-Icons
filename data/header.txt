@@ -15,6 +15,7 @@
 	--editorconfig: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/EditorConfig.png");
 	--html: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/HTML.svg");
 	--css: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/CSS.svg");
+	--sass: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/SASS.png");
 	--javascript: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/JavaScript.svg");
 	--php: 			url("https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png");
 	--golang: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png");
