@@ -121,3 +121,20 @@
 * `*.zip`
 * `*.tar.gz`
 * `*.gzip`
+
+* `*.mp3`
+* `*.wav`
+
+* `*.sln` (VSCode or Visual Studio)
+* `_config.yml` (Jekyll)
+* `_config.toml` (Jekyll)
+* `*.toml`
+
+* `.gitpod.Dockerfile`
+* `.clang-format`
+* `.gitpod.yml`
+* `.vscode` folder
+* `.npmignore`
+* `Doxyfile`
+* `.cmake`
+* `.theia` (folder)?
