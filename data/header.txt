@@ -29,4 +29,6 @@
 	--shell: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png");
 	--svg: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/SVG.svg");
 	--cmd: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/CMD.png");
+	--apache: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/Apache.png");
+	--java: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/Java.png");
 }

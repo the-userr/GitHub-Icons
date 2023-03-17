@@ -138,3 +138,5 @@
 * `Doxyfile`
 * `.cmake`
 * `.theia` (folder)?
+
+* `*.aspx`

@@ -25,3 +25,6 @@ requirements.txt;file;python
 .svg;filemask;svg
 .bat;filemask;cmd
 .cmd;filemask;cmd
+.htaccess;file;apache
+.jar;filemask;java
+.war;filemask;java
