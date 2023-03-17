@@ -1,33 +1,33 @@
 /* ==UserStyle==
 @name           GitHub Icons
 @namespace      github.com/openstyles/stylus
-@version        1.0.3
-@description    A new userstyle
-@author         pycoinfu and the-userr
+@version        1.0.4
+@description    Custom GitHub icons
+@author         https://github.com/pycoinfu, https://github.com/the-userr
 @updateURL      https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/UserCSS.css
 ==/UserStyle== */
 
 @-moz-document domain("github.com") {
 :root {
-	--markdown: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Markdown.svg");
-	--git: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Git.png");
-	--github: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/GitHub.svg");
+	--markdown: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Markdown.svg");
+	--git: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Git.png");
+	--github: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/GitHub.svg");
 	--editorconfig: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/EditorConfig.png");
-	--html: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/HTML.svg");
-	--css: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/CSS.svg");
-	--javascript: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/JavaScript.png");
-	--php: url("https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png");
-	--golang: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png");
-	--csharp: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png");
-	--cpp: url("https://raw.githubusercontent.com/github/explore/180320cffc25f4ed1bbdfd33d4db3a66eeeeb358/topics/cpp/cpp.png");
-	--c: url("https://raw.githubusercontent.com/github/explore/f3e22f0dca2be955676bc70d6214b95b13354ee8/topics/c/c.png");
-	--python: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Python.svg");
-	--json: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/JSON.svg");
-	--xml: url("https://raw.githubusercontent.com/github/explore/05a6f4c574a32b6b2f04c2e589f6c82d9df46a5d/topics/xml/xml.png");
-	--yaml: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png");
-	--powershell: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/powershell/powershell.png");
-	--shell: url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png");
-	--svg: url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/SVG.svg");
+	--html: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/HTML.svg");
+	--css: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/CSS.svg");
+	--javascript: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/JavaScript.png");
+	--php: 			url("https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png");
+	--golang: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png");
+	--csharp: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png");
+	--cpp: 			url("https://raw.githubusercontent.com/github/explore/180320cffc25f4ed1bbdfd33d4db3a66eeeeb358/topics/cpp/cpp.png");
+	--c: 			url("https://raw.githubusercontent.com/github/explore/f3e22f0dca2be955676bc70d6214b95b13354ee8/topics/c/c.png");
+	--python: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/Python.svg");
+	--json: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/JSON.svg");
+	--xml: 			url("https://raw.githubusercontent.com/github/explore/05a6f4c574a32b6b2f04c2e589f6c82d9df46a5d/topics/xml/xml.png");
+	--yaml: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png");
+	--powershell: 	url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/powershell/powershell.png");
+	--shell: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png");
+	--svg: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/main/icons/SVG.svg");
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md"]) {
     background-image: var(--markdown);
@@ -60,14 +60,14 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) {
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) > svg {
     visibility: hidden;
 }
-file-tree li[id^="file-tree-item"][data-hydro-click-payload*='.gitignore","extension"'] > a > span:first-child {
+file-tree li[id^="file-tree-item"][data-file-type=".gitignore"] > a > span:first-child {
     background-image: var(--git);
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
 	background-origin: content-box;
 }
-file-tree li[id^="file-tree-item"][data-hydro-click-payload*='.gitignore","extension"'] > a > span:first-child > svg {
+file-tree li[id^="file-tree-item"][data-file-type=".gitignore"] > a > span:first-child > svg {
 	visibility: hidden;
 }
 
@@ -113,6 +113,48 @@ file-tree li[id^="file-tree-item"][data-file-type=".gitmodules"] > a > span:firs
 	visibility: hidden;
 }
 
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmessage"]) {
+    background-image: var(--git);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmessage"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitmessage"] > a > span:first-child {
+    background-image: var(--git);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitmessage"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitreview"]) {
+    background-image: var(--git);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitreview"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitreview"] > a > span:first-child {
+    background-image: var(--git);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".gitreview"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
     background-image: var(--github);
     background-size: contain;
@@ -122,6 +164,16 @@ div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) {
 }
 div:has( > svg[aria-label="Directory"]):has(+ div > span > a[href$=".github"]) > svg {
     visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".github"] > a > span:first-child {
+    background-image: var(--github);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".github"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".editorconfig"]) {
@@ -323,14 +375,14 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) {
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".py"]) > svg {
     visibility: hidden;
 }
-file-tree li[id^="file-tree-item"][data-hydro-click-payload*='.py","extension"'] > a > span:first-child {
+file-tree li[id^="file-tree-item"][data-file-type=".py"] > a > span:first-child {
     background-image: var(--python);
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
 	background-origin: content-box;
 }
-file-tree li[id^="file-tree-item"][data-hydro-click-payload*='.py","extension"'] > a > span:first-child > svg {
+file-tree li[id^="file-tree-item"][data-file-type=".py"] > a > span:first-child > svg {
 	visibility: hidden;
 }
 
@@ -343,6 +395,16 @@ div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"
 }
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"]) > svg {
     visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="requirements.txt"] > a > span:first-child {
+    background-image: var(--python);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="requirements.txt"] > a > span:first-child > svg {
+	visibility: hidden;
 }
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".json"]) {
@@ -365,7 +427,6 @@ file-tree li[id^="file-tree-item"][data-file-type=".json"] > a > span:first-chil
 file-tree li[id^="file-tree-item"][data-file-type=".json"] > a > span:first-child > svg {
 	visibility: hidden;
 }
-
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".xml"]) {
     background-image: var(--xml);
@@ -409,24 +470,24 @@ file-tree li[id^="file-tree-item"][data-file-type=".yaml"] > a > span:first-chil
 	visibility: hidden;
 }
 
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps1"]) {
     background-image: var(--powershell);
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
 	background-origin: content-box;
 }
-div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps"]) > svg {
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps1"]) > svg {
     visibility: hidden;
 }
-file-tree li[id^="file-tree-item"][data-file-type=".ps"] > a > span:first-child {
+file-tree li[id^="file-tree-item"][data-file-type=".ps1"] > a > span:first-child {
     background-image: var(--powershell);
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: center;
 	background-origin: content-box;
 }
-file-tree li[id^="file-tree-item"][data-file-type=".ps"] > a > span:first-child > svg {
+file-tree li[id^="file-tree-item"][data-file-type=".ps1"] > a > span:first-child > svg {
 	visibility: hidden;
 }
 
@@ -471,4 +532,5 @@ file-tree li[id^="file-tree-item"][data-file-type=".svg"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".svg"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+
 }

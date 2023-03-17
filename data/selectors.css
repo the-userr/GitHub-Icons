@@ -1,0 +1,21 @@
+div:has( > svg[aria-label="$type$"]):has(+ div > span > a[href$="$filename$"]) {
+    background-image: var(--$CSS_var$);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="$type$"]):has(+ div > span > a[href$="$filename$"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type="$filename$"] > a > span:first-child {
+    background-image: var(--$CSS_var$);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type="$filename$"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+
