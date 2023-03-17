@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           GitHub Icons
 @namespace      github.com/openstyles/stylus
-@version        1.0.4
+@version        1.0.5
 @description    Custom GitHub icons
 @author         https://github.com/pycoinfu, https://github.com/the-userr
 @updateURL      https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/UserCSS.css
