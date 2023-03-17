@@ -8,8 +8,8 @@
 
 # Installation
 
-1. Install Stylus ([Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox add-ons](https://addons.mozilla.org/ru/firefox/addon/styl-us/), or from [GitHub](https://github.com/openstyles/stylus))
-2. Install the extension from [UserStyles.world](https://userstyles.world/style/8856/github-icons) or [releases](https://github.com/the-userr/GitHub-Icons/releases)
+1. Install Stylus ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/ru/firefox/addon/styl-us/) or from [GitHub](https://github.com/openstyles/stylus/releases/latest))
+2. Install the UserCSS from [UserStyles.world](https://userstyles.world/style/8856/github-icons) or [releases](https://github.com/the-userr/GitHub-Icons/releases)
 
 You can also change the icons to your own in Stylus
 
