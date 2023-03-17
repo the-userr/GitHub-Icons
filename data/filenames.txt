@@ -23,3 +23,5 @@ requirements.txt;file;python
 .ps1;filemask;powershell
 .sh;filemask;shell
 .svg;filemask;svg
+.bat;filemask;cmd
+.cmd;filemask;cmd
