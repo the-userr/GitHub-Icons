@@ -64,6 +64,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".md"] > a > span:first-child 
 file-tree li[id^="file-tree-item"][data-file-type=".md"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".md"]) {
+	background-image: var(--markdown);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".md"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitignore"]) {
     background-image: var(--git);
@@ -83,6 +94,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".gitignore"] > a > span:first
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".gitignore"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitignore"]) {
+	background-image: var(--git);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitignore"]) > svg {
 	visibility: hidden;
 }
 
@@ -106,6 +128,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".gitattributes"] > a > span:f
 file-tree li[id^="file-tree-item"][data-file-type=".gitattributes"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitattributes"]) {
+	background-image: var(--git);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitattributes"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitmodules"]) {
     background-image: var(--git);
@@ -125,6 +158,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".gitmodules"] > a > span:firs
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".gitmodules"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitmodules"]) {
+	background-image: var(--git);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitmodules"]) > svg {
 	visibility: hidden;
 }
 
@@ -148,6 +192,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".gitmessage"] > a > span:firs
 file-tree li[id^="file-tree-item"][data-file-type=".gitmessage"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitmessage"]) {
+	background-image: var(--git);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitmessage"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".gitreview"]) {
     background-image: var(--git);
@@ -167,6 +222,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".gitreview"] > a > span:first
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".gitreview"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitreview"]) {
+	background-image: var(--git);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitreview"]) > svg {
 	visibility: hidden;
 }
 
@@ -190,6 +256,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".github"] > a > span:first-ch
 file-tree li[id^="file-tree-item"][data-file-type=".github"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".github"]) {
+	background-image: var(--github);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".github"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".editorconfig"]) {
     background-image: var(--editorconfig);
@@ -209,6 +286,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".editorconfig"] > a > span:fi
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".editorconfig"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".editorconfig"]) {
+	background-image: var(--editorconfig);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".editorconfig"]) > svg {
 	visibility: hidden;
 }
 
@@ -232,6 +320,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".html"] > a > span:first-chil
 file-tree li[id^="file-tree-item"][data-file-type=".html"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".html"]) {
+	background-image: var(--html);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".html"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) {
     background-image: var(--css);
@@ -251,6 +350,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".css"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".css"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".css"]) {
+	background-image: var(--css);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".css"]) > svg {
 	visibility: hidden;
 }
 
@@ -274,6 +384,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".js"] > a > span:first-child 
 file-tree li[id^="file-tree-item"][data-file-type=".js"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".js"]) {
+	background-image: var(--javascript);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".js"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".php"]) {
     background-image: var(--php);
@@ -293,6 +414,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".php"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".php"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".php"]) {
+	background-image: var(--php);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".php"]) > svg {
 	visibility: hidden;
 }
 
@@ -316,6 +448,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".go"] > a > span:first-child 
 file-tree li[id^="file-tree-item"][data-file-type=".go"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".go"]) {
+	background-image: var(--golang);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".go"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cs"]) {
     background-image: var(--csharp);
@@ -335,6 +478,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".cs"] > a > span:first-child 
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".cs"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cs"]) {
+	background-image: var(--csharp);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cs"]) > svg {
 	visibility: hidden;
 }
 
@@ -358,6 +512,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".cpp"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".cpp"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cpp"]) {
+	background-image: var(--cpp);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cpp"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".c"]) {
     background-image: var(--c);
@@ -377,6 +542,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".c"] > a > span:first-child {
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".c"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".c"]) {
+	background-image: var(--c);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".c"]) > svg {
 	visibility: hidden;
 }
 
@@ -400,6 +576,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".py"] > a > span:first-child 
 file-tree li[id^="file-tree-item"][data-file-type=".py"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".py"]) {
+	background-image: var(--python);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".py"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$="requirements.txt"]) {
     background-image: var(--python);
@@ -419,6 +606,17 @@ file-tree li[id^="file-tree-item"][data-file-type="requirements.txt"] > a > span
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type="requirements.txt"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="requirements.txt"]) {
+	background-image: var(--python);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="requirements.txt"]) > svg {
 	visibility: hidden;
 }
 
@@ -442,6 +640,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".json"] > a > span:first-chil
 file-tree li[id^="file-tree-item"][data-file-type=".json"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".json"]) {
+	background-image: var(--json);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".json"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".xml"]) {
     background-image: var(--xml);
@@ -461,6 +670,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".xml"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".xml"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".xml"]) {
+	background-image: var(--xml);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".xml"]) > svg {
 	visibility: hidden;
 }
 
@@ -484,6 +704,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".yaml"] > a > span:first-chil
 file-tree li[id^="file-tree-item"][data-file-type=".yaml"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".yaml"]) {
+	background-image: var(--yaml);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".yaml"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ps1"]) {
     background-image: var(--powershell);
@@ -503,6 +734,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".ps1"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".ps1"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ps1"]) {
+	background-image: var(--powershell);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ps1"]) > svg {
 	visibility: hidden;
 }
 
@@ -526,6 +768,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".sh"] > a > span:first-child 
 file-tree li[id^="file-tree-item"][data-file-type=".sh"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sh"]) {
+	background-image: var(--shell);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sh"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".svg"]) {
     background-image: var(--svg);
@@ -545,6 +798,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".svg"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".svg"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".svg"]) {
+	background-image: var(--svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".svg"]) > svg {
 	visibility: hidden;
 }
 
@@ -568,6 +832,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".bat"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".bat"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".bat"]) {
+	background-image: var(--cmd);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".bat"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".cmd"]) {
     background-image: var(--cmd);
@@ -587,6 +862,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".cmd"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".cmd"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cmd"]) {
+	background-image: var(--cmd);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cmd"]) > svg {
 	visibility: hidden;
 }
 
@@ -610,6 +896,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".htaccess"] > a > span:first-
 file-tree li[id^="file-tree-item"][data-file-type=".htaccess"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".htaccess"]) {
+	background-image: var(--apache);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".htaccess"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".jar"]) {
     background-image: var(--java);
@@ -629,6 +926,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".jar"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".jar"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jar"]) {
+	background-image: var(--java);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jar"]) > svg {
 	visibility: hidden;
 }
 
@@ -652,6 +960,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".war"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".war"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".war"]) {
+	background-image: var(--java);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".war"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".exe"]) {
     background-image: var(--exe);
@@ -671,6 +990,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".exe"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".exe"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".exe"]) {
+	background-image: var(--exe);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".exe"]) > svg {
 	visibility: hidden;
 }
 
@@ -694,6 +1024,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".mp3"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".mp3"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".mp3"]) {
+	background-image: var(--audio);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".mp3"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ogg"]) {
     background-image: var(--audio);
@@ -713,6 +1054,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".ogg"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".ogg"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ogg"]) {
+	background-image: var(--audio);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ogg"]) > svg {
 	visibility: hidden;
 }
 
@@ -736,6 +1088,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".wav"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".wav"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".wav"]) {
+	background-image: var(--audio);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".wav"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".dll"]) {
     background-image: var(--dll);
@@ -755,6 +1118,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".dll"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".dll"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".dll"]) {
+	background-image: var(--dll);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".dll"]) > svg {
 	visibility: hidden;
 }
 
@@ -778,6 +1152,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".ini"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".ini"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ini"]) {
+	background-image: var(--ini);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ini"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".jpg"]) {
     background-image: var(--jpeg);
@@ -797,6 +1182,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".jpg"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".jpg"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jpg"]) {
+	background-image: var(--jpeg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jpg"]) > svg {
 	visibility: hidden;
 }
 
@@ -820,6 +1216,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".jpeg"] > a > span:first-chil
 file-tree li[id^="file-tree-item"][data-file-type=".jpeg"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jpeg"]) {
+	background-image: var(--jpeg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jpeg"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".png"]) {
     background-image: var(--png);
@@ -839,6 +1246,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".png"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".png"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".png"]) {
+	background-image: var(--png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".png"]) > svg {
 	visibility: hidden;
 }
 
@@ -862,6 +1280,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".rtf"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".rtf"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".rtf"]) {
+	background-image: var(--rtf);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".rtf"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".txt"]) {
     background-image: var(--txt);
@@ -881,6 +1310,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".txt"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".txt"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".txt"]) {
+	background-image: var(--txt);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".txt"]) > svg {
 	visibility: hidden;
 }
 
@@ -904,6 +1344,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".zip"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".zip"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".zip"]) {
+	background-image: var(--zip);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".zip"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".hash"]) {
     background-image: var(--hash);
@@ -923,6 +1374,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".hash"] > a > span:first-chil
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".hash"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".hash"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".hash"]) > svg {
 	visibility: hidden;
 }
 
@@ -946,6 +1408,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".sfv"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".sfv"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sfv"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sfv"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".md5"]) {
     background-image: var(--hash);
@@ -965,6 +1438,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".md5"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".md5"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".md5"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".md5"]) > svg {
 	visibility: hidden;
 }
 
@@ -988,6 +1472,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".sha1"] > a > span:first-chil
 file-tree li[id^="file-tree-item"][data-file-type=".sha1"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha1"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha1"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sha256"]) {
     background-image: var(--hash);
@@ -1007,6 +1502,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".sha256"] > a > span:first-ch
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".sha256"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha256"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha256"]) > svg {
 	visibility: hidden;
 }
 
@@ -1030,6 +1536,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".sha512"] > a > span:first-ch
 file-tree li[id^="file-tree-item"][data-file-type=".sha512"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha512"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha512"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".sha3-256"]) {
     background-image: var(--hash);
@@ -1049,6 +1566,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".sha3-256"] > a > span:first-
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".sha3-256"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha3-256"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha3-256"]) > svg {
 	visibility: hidden;
 }
 
@@ -1072,6 +1600,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".sha3-512"] > a > span:first-
 file-tree li[id^="file-tree-item"][data-file-type=".sha3-512"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha3-512"]) {
+	background-image: var(--hash);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha3-512"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".ttf"]) {
     background-image: var(--truetype);
@@ -1091,6 +1630,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".ttf"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".ttf"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ttf"]) {
+	background-image: var(--truetype);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ttf"]) > svg {
 	visibility: hidden;
 }
 
@@ -1114,6 +1664,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".otf"] > a > span:first-child
 file-tree li[id^="file-tree-item"][data-file-type=".otf"] > a > span:first-child > svg {
 	visibility: hidden;
 }
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".otf"]) {
+	background-image: var(--truetype);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".otf"]) > svg {
+	visibility: hidden;
+}
 
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".rdf"]) {
     background-image: var(--rdf);
@@ -1133,6 +1694,17 @@ file-tree li[id^="file-tree-item"][data-file-type=".rdf"] > a > span:first-child
 	background-origin: content-box;
 }
 file-tree li[id^="file-tree-item"][data-file-type=".rdf"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".rdf"]) {
+	background-image: var(--rdf);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".rdf"]) > svg {
 	visibility: hidden;
 }
 
