@@ -443,6 +443,138 @@ li[id*=".html-item"][role="treeitem"] > div > div:last-child > div[class$="TreeV
 	visibility: hidden;
 }
 
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".shtml"]) {
+    background-image: var(--html);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".shtml"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".shtml"] > a > span:first-child {
+    background-image: var(--html);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".shtml"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".shtml"]) {
+	background-image: var(--html);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".shtml"]) > svg {
+	visibility: hidden;
+}
+li[id*=".shtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--html);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*=".shtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".shtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".dhtml"]) {
+    background-image: var(--html);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".dhtml"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".dhtml"] > a > span:first-child {
+    background-image: var(--html);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".dhtml"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".dhtml"]) {
+	background-image: var(--html);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".dhtml"]) > svg {
+	visibility: hidden;
+}
+li[id*=".dhtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--html);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*=".dhtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".dhtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".mhtml"]) {
+    background-image: var(--html);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".mhtml"]) > svg {
+    visibility: hidden;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".mhtml"] > a > span:first-child {
+    background-image: var(--html);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+}
+file-tree li[id^="file-tree-item"][data-file-type=".mhtml"] > a > span:first-child > svg {
+	visibility: hidden;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".mhtml"]) {
+	background-image: var(--html);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".mhtml"]) > svg {
+	visibility: hidden;
+}
+li[id*=".mhtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
+	background-image: var(--html);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-origin: content-box;
+}
+li[id*=".mhtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".mhtml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
+	visibility: hidden;
+}
+
 div:has( > svg[aria-label="File"]):has(+ div > span > a[href$=".css"]) {
     background-image: var(--css);
     background-size: contain;
