@@ -1,28 +1,28 @@
 # Supported filename extensions
-* `*.html`
-* `*.css`
-* `*.js`
+* <img src="icons/HTML.svg" width="16" style="vertical-align: middle;">`*.html`
+* <img src="icons/CSS.svg" width="16" style="vertical-align: middle;">`*.css`
+* <img src="icons/JavaScript.png" width="16" style="vertical-align: middle;">`*.js`
 * `*.php`
 * `*.c`
 * `*.cpp`
 * `*.cs`
 * `*.go`
-* `*.ps`
+* `*.ps1`
 * `*.sh`
-* `*.json`
+* <img src="icons/JSON.svg" width="16" style="vertical-align: middle;">`*.json`
 * `*.xml`
 * `*.yaml`
 ## Common
-* `.github/` folder
-* `.gitmodules`
-* `.gitignore`
-* `.gitattributes`
-* `.editorconfig`
-* `*.md`
-* `*.svg`
+* <img src="icons/GitHub.svg" width="16" style="vertical-align: middle;">`.github/` folder
+* <img src="icons/Git.png" width="16" style="vertical-align: middle;">`.gitmodules`
+* <img src="icons/Git.png" width="16" style="vertical-align: middle;">`.gitignore`
+* <img src="icons/Git.png" width="16" style="vertical-align: middle;">`.gitattributes`
+* <img src="icons/EditorConfig.png" width="16" style="vertical-align: middle;">`.editorconfig`
+* <img src="icons/Markdown.svg" width="16" style="vertical-align: middle;">`*.md`
+* <img src="icons/SVG.svg" width="16" style="vertical-align: middle;">`*.svg`
 ## Python
-* `*.py`
-* `requirements.txt`
+* <img src="icons/Python.svg" width="16" style="vertical-align: middle;">`*.py`
+* <img src="icons/Python.svg" width="16" style="vertical-align: middle;">`requirements.txt`
 # TODO
 * Write a script that will build UserCSS.css from template and table of data
 * Continue migration from "github.com/topics" icons to files in [icons folder](icons)

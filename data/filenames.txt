@@ -40,3 +40,14 @@ requirements.txt;file;python
 .rtf;filemask;rtf
 .txt;filemask;txt
 .zip;filemask;zip
+.hash;filemask;hash
+.sfv;filemask;hash
+.md5;filemask;hash
+.sha1;filemask;hash
+.sha256;filemask;hash
+.sha512;filemask;hash
+.sha3-256;filemask;hash
+.sha3-512;filemask;hash
+.ttf;filemask;truetype
+.otf;filemask;truetype
+.rdf;filemask;rdf
