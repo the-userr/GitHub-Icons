@@ -75,7 +75,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".md"]) > svg {
 	visibility: hidden;
 }
-li[id*=".md-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".md-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--markdown);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -83,7 +83,8 @@ li[id*=".md-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".md-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".md-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".md-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -118,7 +119,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitignore"]) > svg {
 	visibility: hidden;
 }
-li[id*=".gitignore-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".gitignore-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--git);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -126,7 +127,8 @@ li[id*=".gitignore-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".gitignore-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".gitignore-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".gitignore-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -161,7 +163,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitattributes"]) > svg {
 	visibility: hidden;
 }
-li[id*=".gitattributes-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".gitattributes-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--git);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -169,7 +171,8 @@ li[id*=".gitattributes-item"][role="treeitem"] > div > div:nth-of-type(2) > div:
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".gitattributes-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".gitattributes-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".gitattributes-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -204,7 +207,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitmodules"]) > svg {
 	visibility: hidden;
 }
-li[id*=".gitmodules-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".gitmodules-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--git);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -212,7 +215,8 @@ li[id*=".gitmodules-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".gitmodules-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".gitmodules-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".gitmodules-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -247,7 +251,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitmessage"]) > svg {
 	visibility: hidden;
 }
-li[id*=".gitmessage-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".gitmessage-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--git);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -255,7 +259,8 @@ li[id*=".gitmessage-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".gitmessage-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".gitmessage-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".gitmessage-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -290,7 +295,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".gitreview"]) > svg {
 	visibility: hidden;
 }
-li[id*=".gitreview-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".gitreview-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--git);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -298,7 +303,8 @@ li[id*=".gitreview-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".gitreview-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".gitreview-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".gitreview-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -333,7 +339,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".github"]) > svg {
 	visibility: hidden;
 }
-li[id*=".github-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".github-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--github);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -341,7 +347,8 @@ li[id*=".github-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".github-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".github-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".github-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -376,7 +383,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".editorconfig"]) > svg {
 	visibility: hidden;
 }
-li[id*=".editorconfig-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".editorconfig-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--editorconfig);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -384,7 +391,8 @@ li[id*=".editorconfig-item"][role="treeitem"] > div > div:nth-of-type(2) > div:n
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".editorconfig-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".editorconfig-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".editorconfig-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -419,7 +427,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".html"]) > svg {
 	visibility: hidden;
 }
-li[id*=".html-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".html-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--html);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -427,7 +435,8 @@ li[id*=".html-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-ty
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".html-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".html-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".html-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -462,7 +471,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".css"]) > svg {
 	visibility: hidden;
 }
-li[id*=".css-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".css-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--css);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -470,7 +479,8 @@ li[id*=".css-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".css-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".css-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".css-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -505,7 +515,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".js"]) > svg {
 	visibility: hidden;
 }
-li[id*=".js-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".js-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--javascript);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -513,7 +523,8 @@ li[id*=".js-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".js-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".js-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".js-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -548,7 +559,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".php"]) > svg {
 	visibility: hidden;
 }
-li[id*=".php-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".php-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--php);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -556,7 +567,8 @@ li[id*=".php-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".php-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".php-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".php-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -591,7 +603,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".go"]) > svg {
 	visibility: hidden;
 }
-li[id*=".go-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".go-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--golang);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -599,7 +611,8 @@ li[id*=".go-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".go-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".go-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".go-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -634,7 +647,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cs"]) > svg {
 	visibility: hidden;
 }
-li[id*=".cs-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".cs-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--csharp);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -642,7 +655,8 @@ li[id*=".cs-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".cs-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".cs-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".cs-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -677,7 +691,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cpp"]) > svg {
 	visibility: hidden;
 }
-li[id*=".cpp-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".cpp-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--cpp);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -685,7 +699,8 @@ li[id*=".cpp-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".cpp-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".cpp-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".cpp-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -720,7 +735,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".c"]) > svg {
 	visibility: hidden;
 }
-li[id*=".c-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".c-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--c);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -728,7 +743,8 @@ li[id*=".c-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".c-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".c-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".c-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -763,7 +779,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".py"]) > svg {
 	visibility: hidden;
 }
-li[id*=".py-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".py-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--python);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -771,7 +787,8 @@ li[id*=".py-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".py-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".py-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".py-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -806,7 +823,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="requirements.txt"]) > svg {
 	visibility: hidden;
 }
-li[id*="requirements.txt-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*="requirements.txt-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--python);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -814,7 +831,8 @@ li[id*="requirements.txt-item"][role="treeitem"] > div > div:nth-of-type(2) > di
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*="requirements.txt-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*="requirements.txt-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*="requirements.txt-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -849,7 +867,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".json"]) > svg {
 	visibility: hidden;
 }
-li[id*=".json-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--json);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -857,7 +875,8 @@ li[id*=".json-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-ty
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".json-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".json-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -892,7 +911,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".xml"]) > svg {
 	visibility: hidden;
 }
-li[id*=".xml-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".xml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--xml);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -900,7 +919,8 @@ li[id*=".xml-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".xml-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".xml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".xml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -935,7 +955,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".yaml"]) > svg {
 	visibility: hidden;
 }
-li[id*=".yaml-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".yaml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--yaml);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -943,7 +963,8 @@ li[id*=".yaml-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-ty
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".yaml-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".yaml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".yaml-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -978,7 +999,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ps1"]) > svg {
 	visibility: hidden;
 }
-li[id*=".ps1-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".ps1-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--powershell);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -986,7 +1007,8 @@ li[id*=".ps1-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".ps1-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".ps1-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".ps1-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1021,7 +1043,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sh"]) > svg {
 	visibility: hidden;
 }
-li[id*=".sh-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".sh-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--shell);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1029,7 +1051,8 @@ li[id*=".sh-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".sh-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".sh-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sh-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1064,7 +1087,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".svg"]) > svg {
 	visibility: hidden;
 }
-li[id*=".svg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".svg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--svg);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1072,7 +1095,8 @@ li[id*=".svg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".svg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".svg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".svg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1107,7 +1131,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".bat"]) > svg {
 	visibility: hidden;
 }
-li[id*=".bat-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".bat-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--cmd);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1115,7 +1139,8 @@ li[id*=".bat-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".bat-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".bat-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".bat-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1150,7 +1175,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".cmd"]) > svg {
 	visibility: hidden;
 }
-li[id*=".cmd-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".cmd-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--cmd);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1158,7 +1183,8 @@ li[id*=".cmd-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".cmd-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".cmd-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".cmd-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1193,7 +1219,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".htaccess"]) > svg {
 	visibility: hidden;
 }
-li[id*=".htaccess-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".htaccess-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--apache);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1201,7 +1227,8 @@ li[id*=".htaccess-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-o
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".htaccess-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".htaccess-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".htaccess-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1236,7 +1263,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jar"]) > svg {
 	visibility: hidden;
 }
-li[id*=".jar-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".jar-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--java);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1244,7 +1271,8 @@ li[id*=".jar-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".jar-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".jar-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".jar-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1279,7 +1307,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".war"]) > svg {
 	visibility: hidden;
 }
-li[id*=".war-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".war-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--java);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1287,7 +1315,8 @@ li[id*=".war-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".war-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".war-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".war-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1322,7 +1351,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".exe"]) > svg {
 	visibility: hidden;
 }
-li[id*=".exe-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".exe-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--exe);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1330,7 +1359,8 @@ li[id*=".exe-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".exe-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".exe-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".exe-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1365,7 +1395,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".mp3"]) > svg {
 	visibility: hidden;
 }
-li[id*=".mp3-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".mp3-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--audio);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1373,7 +1403,8 @@ li[id*=".mp3-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".mp3-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".mp3-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".mp3-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1408,7 +1439,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ogg"]) > svg {
 	visibility: hidden;
 }
-li[id*=".ogg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".ogg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--audio);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1416,7 +1447,8 @@ li[id*=".ogg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".ogg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".ogg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".ogg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1451,7 +1483,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".wav"]) > svg {
 	visibility: hidden;
 }
-li[id*=".wav-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".wav-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--audio);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1459,7 +1491,8 @@ li[id*=".wav-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".wav-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".wav-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".wav-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1494,7 +1527,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".dll"]) > svg {
 	visibility: hidden;
 }
-li[id*=".dll-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".dll-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--dll);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1502,7 +1535,8 @@ li[id*=".dll-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".dll-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".dll-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".dll-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1537,7 +1571,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ini"]) > svg {
 	visibility: hidden;
 }
-li[id*=".ini-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".ini-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--ini);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1545,7 +1579,8 @@ li[id*=".ini-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".ini-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".ini-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".ini-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1580,7 +1615,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jpg"]) > svg {
 	visibility: hidden;
 }
-li[id*=".jpg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".jpg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--jpeg);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1588,7 +1623,8 @@ li[id*=".jpg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".jpg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".jpg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".jpg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1623,7 +1659,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".jpeg"]) > svg {
 	visibility: hidden;
 }
-li[id*=".jpeg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".jpeg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--jpeg);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1631,7 +1667,8 @@ li[id*=".jpeg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-ty
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".jpeg-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".jpeg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".jpeg-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1666,7 +1703,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".png"]) > svg {
 	visibility: hidden;
 }
-li[id*=".png-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".png-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--png);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1674,7 +1711,8 @@ li[id*=".png-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".png-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".png-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".png-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1709,7 +1747,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".rtf"]) > svg {
 	visibility: hidden;
 }
-li[id*=".rtf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".rtf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--rtf);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1717,7 +1755,8 @@ li[id*=".rtf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".rtf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".rtf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".rtf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1752,7 +1791,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".txt"]) > svg {
 	visibility: hidden;
 }
-li[id*=".txt-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".txt-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--txt);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1760,7 +1799,8 @@ li[id*=".txt-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".txt-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".txt-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".txt-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1795,7 +1835,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".zip"]) > svg {
 	visibility: hidden;
 }
-li[id*=".zip-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".zip-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--zip);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1803,7 +1843,8 @@ li[id*=".zip-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".zip-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".zip-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".zip-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1838,7 +1879,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".hash"]) > svg {
 	visibility: hidden;
 }
-li[id*=".hash-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".hash-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1846,7 +1887,8 @@ li[id*=".hash-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-ty
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".hash-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".hash-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".hash-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1881,7 +1923,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sfv"]) > svg {
 	visibility: hidden;
 }
-li[id*=".sfv-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".sfv-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1889,7 +1931,8 @@ li[id*=".sfv-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".sfv-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".sfv-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sfv-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1924,7 +1967,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".md5"]) > svg {
 	visibility: hidden;
 }
-li[id*=".md5-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".md5-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1932,7 +1975,8 @@ li[id*=".md5-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".md5-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".md5-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".md5-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -1967,7 +2011,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha1"]) > svg {
 	visibility: hidden;
 }
-li[id*=".sha1-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".sha1-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -1975,7 +2019,8 @@ li[id*=".sha1-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-ty
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".sha1-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".sha1-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sha1-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2010,7 +2055,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha256"]) > svg {
 	visibility: hidden;
 }
-li[id*=".sha256-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".sha256-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -2018,7 +2063,8 @@ li[id*=".sha256-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".sha256-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".sha256-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sha256-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2053,7 +2099,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha512"]) > svg {
 	visibility: hidden;
 }
-li[id*=".sha512-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".sha512-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -2061,7 +2107,8 @@ li[id*=".sha512-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".sha512-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".sha512-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sha512-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2096,7 +2143,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha3-256"]) > svg {
 	visibility: hidden;
 }
-li[id*=".sha3-256-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".sha3-256-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -2104,7 +2151,8 @@ li[id*=".sha3-256-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-o
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".sha3-256-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".sha3-256-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sha3-256-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2139,7 +2187,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".sha3-512"]) > svg {
 	visibility: hidden;
 }
-li[id*=".sha3-512-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".sha3-512-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--hash);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -2147,7 +2195,8 @@ li[id*=".sha3-512-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-o
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".sha3-512-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".sha3-512-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".sha3-512-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2182,7 +2231,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".ttf"]) > svg {
 	visibility: hidden;
 }
-li[id*=".ttf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".ttf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--truetype);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -2190,7 +2239,8 @@ li[id*=".ttf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".ttf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".ttf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".ttf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2225,7 +2275,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".otf"]) > svg {
 	visibility: hidden;
 }
-li[id*=".otf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".otf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--truetype);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -2233,7 +2283,8 @@ li[id*=".otf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".otf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".otf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".otf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 
@@ -2268,7 +2319,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$=".rdf"]) > svg {
 	visibility: hidden;
 }
-li[id*=".rdf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*=".rdf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--rdf);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -2276,7 +2327,8 @@ li[id*=".rdf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-typ
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*=".rdf-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*=".rdf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*=".rdf-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
 

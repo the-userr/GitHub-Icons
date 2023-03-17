@@ -29,7 +29,7 @@ table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directo
 table[aria-labelledby="folders-and-files"] > tbody > tr > td > div.react-directory-filename-column:has( > div > h3 > div[title$="$filename$"]) > svg {
 	visibility: hidden;
 }
-li[id*="$filename$-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] {
+li[id*="$filename$-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] {
 	background-image: var(--$CSS_var$);
     background-size: 16px;
     background-repeat: no-repeat;
@@ -37,6 +37,7 @@ li[id*="$filename$-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-
     background-position-y: center;
     background-origin: content-box;
 }
-li[id*="$filename$-item"][role="treeitem"] > div > div:nth-of-type(2) > div:nth-of-type(2)[class$="TreeView-item-visual"] > svg {
+li[id*="$filename$-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > svg,
+li[id*="$filename$-item"][role="treeitem"] > div > div:last-child > div[class$="TreeView-item-visual"] > div[class$="TreeView-directory-icon"] > svg {
 	visibility: hidden;
 }
