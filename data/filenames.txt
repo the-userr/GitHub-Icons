@@ -28,3 +28,15 @@ requirements.txt;file;python
 .htaccess;file;apache
 .jar;filemask;java
 .war;filemask;java
+.exe;filemask;exe
+.mp3;filemask;audio
+.ogg;filemask;audio
+.wav;filemask;audio
+.dll;filemask;dll
+.ini;filemask;ini
+.jpg;filemask;jpeg
+.jpeg;filemask;jpeg
+.png;filemask;png
+.rtf;filemask;rtf
+.txt;filemask;txt
+.zip;filemask;zip

@@ -25,10 +25,19 @@
 	--json: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/JSON.svg");
 	--xml: 			url("https://raw.githubusercontent.com/github/explore/05a6f4c574a32b6b2f04c2e589f6c82d9df46a5d/topics/xml/xml.png");
 	--yaml: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yaml/yaml.png");
-	--powershell: 	url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/powershell/powershell.png");
+	--powershell: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/PowerShell.png");
 	--shell: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png");
 	--svg: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/SVG.svg");
 	--cmd: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/CMD.png");
 	--apache: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/Apache.png");
 	--java: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/Java.png");
+	--exe: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/EXE.png");
+	--audio: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/Audio.png");
+	--dll: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/DLL.png");
+	--ini: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/INI.png");
+	--jpeg: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/JPEG.png");
+	--png: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/PNG.png");
+	--rtf: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/RTF.png");
+	--txt: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/TXT.png");
+	--zip: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/Latest/icons/ZIP.png");
 }
