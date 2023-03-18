@@ -19,7 +19,7 @@ You can edit URLs to icons in your own repository
 You can find the list of supported extensions [here](SUPPORTED_EXTENSIONS.md)
 
 # Building/Contributing
-All filenames stores in [`data` folder](data/)
+All filenames stores in [`data` folder](data/)<br>
 You should run [`compile.cmd`](compile.cmd) to recreate [`UserCSS.css`](UserCSS.css) from files in `data`
 
 # Sources
