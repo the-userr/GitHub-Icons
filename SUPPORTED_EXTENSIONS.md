@@ -2,16 +2,16 @@
 * <img src="icons/HTML.svg" width="16" style="vertical-align: middle;">`*.html`
 * <img src="icons/CSS.svg" width="16" style="vertical-align: middle;">`*.css`
 * <img src="icons/JavaScript.svg" width="16" style="vertical-align: middle;">`*.js`
-* `*.php`
-* `*.c`
-* `*.cpp`
-* `*.cs`
+* <img src="icons/C.svg" width="16" style="vertical-align: middle;">`*.c`
+* <img src="icons/C++.svg" width="16" style="vertical-align: middle;">`*.cpp`
+* <img src="icons/CSharp.svg" width="16" style="vertical-align: middle;">`*.cs`
 * `*.go`
-* `*.ps1`
-* `*.sh`
+* <img src="icons/PowerShell.png" width="16" style="vertical-align: middle;">`*.ps1`
+* <img src="icons/Shell.svg" width="16" style="vertical-align: middle;">`*.sh`
 * <img src="icons/JSON.svg" width="16" style="vertical-align: middle;">`*.json`
-* `*.xml`
-* `*.yaml`
+* <img src="icons/XML.svg" width="16" style="vertical-align: middle;">`*.xml`
+* <img src="icons/YAML.svg" width="16" style="vertical-align: middle;">`*.yaml`, `*.yml`
+* <img src="icons/INI.svg" width="16" style="vertical-align: middle;">`*.ini`
 ## Common
 * <img src="icons/GitHub.svg" width="16" style="vertical-align: middle;">`.github` folder
 * <img src="icons/Git.png" width="16" style="vertical-align: middle;">`.gitmodules`
@@ -21,18 +21,23 @@
 * <img src="icons/Markdown.svg" width="16" style="vertical-align: middle;">`*.md`
 * <img src="icons/SVG.svg" width="16" style="vertical-align: middle;">`*.svg`
 ## Web
-* `.htaccess` (Apache)
+* <img src="icons/Apache.png" width="16" style="vertical-align: middle;">`.htaccess` (Apache)
 ## Python
 * <img src="icons/Python.svg" width="16" style="vertical-align: middle;">`*.py`
 * <img src="icons/Python.svg" width="16" style="vertical-align: middle;">`requirements.txt`
+## PHP
+* <img src="icons/PHP.svg" width="16" style="vertical-align: middle;">`*.php`
+* <img src="icons/Composer.svg" width="16" style="vertical-align: middle;">`composer.json`
+* <img src="icons/Composer.svg" width="16" style="vertical-align: middle;">`composer.local.json`
+* <img src="icons/Composer.svg" width="16" style="vertical-align: middle;">`composer.lock`
 ## Semantic Web
-* `*.rdf`
+* <img src="icons/RDF.svg" width="16" style="vertical-align: middle;">`*.rdf`
 ## Java
-* `*.jar`
-* `*.war`
+* <img src="icons/Java.png" width="16" style="vertical-align: middle;">`*.jar`
+* <img src="icons/Java.png" width="16" style="vertical-align: middle;">`*.war`
 ## Other
-* `*.bat`, `*.cmd`
-* `*.exe`
+* <img src="icons/CMD.png" width="16" style="vertical-align: middle;">`*.bat`, `*.cmd`
+* <img src="icons/EXE.png" width="16" style="vertical-align: middle;">`*.exe`
 * `*.mp3`
 * `*.wav`
 * `*.ogg`
@@ -42,7 +47,6 @@
 * `*.svg`
 * `*.txt`
 * `*.png`
-* `*.ini`
 # TODO
 * Continue migration from "github.com/topics" icons to files in [icons folder](icons)
 * Pin some files? (README.md on top of the files in repositories)
@@ -89,15 +93,12 @@
 * `makefile`
 * `*.xsd`?
 
-* `composer.json`
-* `composer.local.json`
-* `composer.lock`
 * `*.conf`? (nginx)
 
 * `babel.config.json`?
 * `package.json`?
 * `package-lock.json`?
-* `README`
+* `README`?
 * `yarn.lock`?
 
 * `Desktop.ini`??
@@ -141,3 +142,36 @@
 * `.theia` (folder)?
 
 * `*.aspx`
+
+* `.clang-format`
+* `.cpplint`
+* `.eslintignore`
+* `.eslintrc.js`
+* `.eslintrc.json`
+* `.flake8`
+* `.gitpod.yml`
+* `.mailmap`
+* `.nycrc`
+* `.yamllint.yaml`
+* `BSDmakefile`
+* `.phan` folder
+* `.dockerignore`
+* `.fresnel.yml`
+* `.phpcs.xml`
+* `.stylelintrc.json`
+* `.svgo.config.js`
+* `.vsls.json`
+* `docker-compose.yml`
+* `*.hpp`
+* `*.h`
+* `*.bmp` (for example, used in https://github.com/gurnec/HashCheck)
+
+* `.codecov.yml`
+
+* `*.css.map` (is this JSON or CSS?)
+
+* `*.vcxproj`?
+* `*.vcxproj.filters`?
+
+* `*.props`?
+* `*.rc`?
