@@ -13,7 +13,8 @@
 
 You can also customize the icons to your own in Stylus<br>
 __Note__: browsers block URLs outer of GitHub because of Content Security Policy<br>
-You can edit URLs to icons in your own repository
+You can edit URLs to icons in your own repository<br>
+Or you can hardcode it like `url('data:image/png;base64,...')`
 
 # Supported Extensions
 You can find the list of supported extensions [here](SUPPORTED_EXTENSIONS.md)
