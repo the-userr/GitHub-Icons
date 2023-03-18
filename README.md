@@ -23,4 +23,6 @@ All filenames stores in [`data` folder](data/)<br>
 You should run [`compile.cmd`](compile.cmd) to recreate [`UserCSS.css`](UserCSS.css) from files in `data`
 
 # Sources
-* [Wikimedia Commons](https://commons.wikimedia.org/) - icons
+* [Wikimedia Commons](https://commons.wikimedia.org/) - icons<br>
+Hash icon added from [HashCheck Shell Extension](https://code.kliu.org/hashcheck/) under [BSD-style license](https://code.kliu.org/hashcheck/license.txt). DISCLAIMER: All rights reserved by Kai Liu (Copyright (C) 2008-2009)<br>
+You can check also [GNU General Public License v3.0](LICENSE)
