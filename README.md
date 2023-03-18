@@ -24,7 +24,7 @@ You should run [`compile.cmd`](compile.cmd) to recreate [`UserCSS.css`](UserCSS.
 
 # Sources
 * [Wikimedia Commons](https://commons.wikimedia.org/) - icons
-* [Icon Archive](https://www.iconarchive.com/) - (shell icon)[icons/Shell.svg]
+* [Icon Archive](https://www.iconarchive.com/) - [shell icon](icons/Shell.svg)
 
 Hash icon added from [HashCheck Shell Extension](https://code.kliu.org/hashcheck/) under [BSD-style license](https://code.kliu.org/hashcheck/license.txt). DISCLAIMER: All rights reserved by Kai Liu (Copyright (C) 2008-2009)<br>
 I do not own all of these icons<br>
