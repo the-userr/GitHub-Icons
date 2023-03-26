@@ -6,7 +6,7 @@
 @author 		disa (https://github.com/pycoinfu), the-userr (https://github.com/the-userr)
 @homepageURL 	https://github.com/the-userr/GitHub-Icons
 @supportURL 	https://github.com/the-userr/GitHub-Icons/issues
-@updateURL 		https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/UserCSS.css
+@updateURL 		https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/UserCSS.user.css
 @license 		CC-BY-SA-4.0
 @preprocessor 	default
 ==/UserStyle== */
