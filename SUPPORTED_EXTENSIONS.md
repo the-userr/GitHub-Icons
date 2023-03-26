@@ -11,7 +11,7 @@
 * <img src="icons/JSON.svg" width="16" style="vertical-align: middle;">`*.json`
 * <img src="icons/XML.svg" width="16" style="vertical-align: middle;">`*.xml`
 * <img src="icons/YAML.svg" width="16" style="vertical-align: middle;">`*.yaml`, `*.yml`
-* <img src="icons/INI.svg" width="16" style="vertical-align: middle;">`*.ini`
+* <img src="icons/INI.png" width="16" style="vertical-align: middle;">`*.ini`
 ## Common
 * <img src="icons/GitHub.svg" width="16" style="vertical-align: middle;">`.github` folder
 * <img src="icons/Git.png" width="16" style="vertical-align: middle;">`.gitmodules`
