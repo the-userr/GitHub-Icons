@@ -1,10 +1,14 @@
 /* ==UserStyle==
-@name           GitHub Icons
-@namespace      github.com/openstyles/stylus
-@version        1.0.5
-@description    Custom GitHub icons
-@author         https://github.com/pycoinfu, https://github.com/the-userr
-@updateURL      https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/UserCSS.css
+@name 			GitHub Icons
+@namespace 		https://github.com/the-userr
+@version 		1.0.5
+@description 	Custom GitHub icons
+@author 		disa (https://github.com/pycoinfu), the-userr (https://github.com/the-userr)
+@homepageURL 	https://github.com/the-userr/GitHub-Icons
+@supportURL 	https://github.com/the-userr/GitHub-Icons/issues
+@updateURL 		https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/UserCSS.css
+@license 		CC-BY-SA-4.0
+@preprocessor 	default
 ==/UserStyle== */
 
 @-moz-document domain("github.com") {
