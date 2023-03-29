@@ -4,12 +4,13 @@
     <br>
     <img src="https://img.shields.io/github/repo-size/the-userr/GitHub-Icons">
     <img src="https://img.shields.io/github/languages/code-size/the-userr/GitHub-Icons">
+    [Screenshot](screenshot.png)
 </div>
 
 # Installation
 
 1. Install Stylus ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/ru/firefox/addon/styl-us/) or from [GitHub](https://github.com/openstyles/stylus/releases/latest))
-2. Install the UserCSS from [UserStyles.world](https://userstyles.world/style/8856/github-icons) or [releases](https://github.com/the-userr/GitHub-Icons/releases)
+2. [Click here](https://github.com/the-userr/GitHub-Icons/raw/main/UserCSS.user.css) or install the UserCSS from [UserStyles.world](https://userstyles.world/style/8856/github-icons)
 
 You can also customize the icons to your own in Stylus<br>
 __Note__: browsers block URLs outer of GitHub because of Content Security Policy<br>
