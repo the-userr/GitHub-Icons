@@ -4,7 +4,8 @@
     <br>
     <img src="https://img.shields.io/github/repo-size/the-userr/GitHub-Icons">
     <img src="https://img.shields.io/github/languages/code-size/the-userr/GitHub-Icons">
-    [Screenshot](screenshot.png)
+    <br><br>
+    <a href="screenshot.png">Screenshot</a>
 </div>
 
 # Installation
