@@ -21,7 +21,7 @@
 	--css: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/CSS.svg");
 	--sass: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/SASS.png");
 	--javascript: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/JavaScript.svg");
-	--php: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/PHP.svg");
+	--php: 			url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/PHP.png");
 	--composer: 	url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Composer.svg");
 	--golang: 		url("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png");
 	--csharp: 		url("https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/CSharp.svg");
